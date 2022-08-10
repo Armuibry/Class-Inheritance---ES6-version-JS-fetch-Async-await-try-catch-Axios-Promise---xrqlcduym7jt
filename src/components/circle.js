@@ -1,14 +1,14 @@
 // import using require
 
-let shape = required('shape');
+let Shape = required('./shape.js');
 
 // declare class
 class Circle {
     constructor(){
 
     }
-    calculateArea = function(){
-
+    calculateArea(){
+        console.log("overiden method");
     }
 }
 

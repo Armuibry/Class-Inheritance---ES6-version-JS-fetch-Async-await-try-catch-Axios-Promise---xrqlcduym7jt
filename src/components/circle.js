@@ -1,6 +1,6 @@
 // import using require
 
-let shape = required('./shape');
+let shape = required('shape');
 
 // declare class
 class Circle {

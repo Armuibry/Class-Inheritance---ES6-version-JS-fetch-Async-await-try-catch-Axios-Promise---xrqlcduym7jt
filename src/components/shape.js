@@ -3,15 +3,13 @@ class Shape {
     constructor(color){
         this.color = color;
     }
-    
-    color : "red"
 
-    drawShape = function(){
-
+    drawShape(){
+        console.log("draw Shape");
     }
 
-    calculateArea = function(){
-
+    calculateArea(){
+        console.log("calculate Area");
     }
 }
 

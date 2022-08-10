@@ -4,8 +4,8 @@ let Shape = required('./shape.js');
 
 // declare class
 class Circle extends Shape {
-    constructor(name){
-        this.name = name;
+    constructor(){
+
     }
     calculateArea(){
         console.log("overiden method");

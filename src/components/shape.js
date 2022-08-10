@@ -5,11 +5,11 @@ class Shape {
     }
 
     drawShape(){
-        console.log("draw Shape");
+        console.log("drawShape");
     }
 
     calculateArea(){
-        console.log("calculate Area");
+        console.log("drawShape");
     }
 }
 

@@ -3,7 +3,7 @@
 let Shape = required('./shape.js');
 
 // declare class
-class Circle {
+class Circle extends Shape {
     constructor(){
 
     }

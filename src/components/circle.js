@@ -1,18 +1,14 @@
 // import using require
-
-let Shape = required('./shape.js');
-
+var Shape = require('./shape.js');
 // declare class
 class Circle extends Shape {
-    constructor(){
+     constructor(color) {
+          super();
+     }
+     calculateArea() {
 
-    }
-    calculateArea(){
-        console.log("overiden method");
-    }
+     }
 }
 
-module.exports = Circle;
-
-
 // export class using module.exports
+module.exports = Circle;
